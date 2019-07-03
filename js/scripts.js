@@ -11,10 +11,9 @@
                     $("#carouselButton").children("span").removeClass('fa-play');
                     $("#carouselButton").children("span").addClass('fa-pause');                    
                 }
-                });
             });
-    </script>
-    <script>
+        });
+
         $(document).ready(function(){
             $("#reserveButton").click(function(){
                 $("#reserve").modal("toggle");
